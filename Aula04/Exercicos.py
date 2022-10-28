@@ -1,5 +1,5 @@
-Primeiro_número = int(input('Primeiro número:'))
-Segundo_número = int(input('Segundo número:'))
-soma = Primeiro_número + Segundo_número
+primeiro_numero = int(input('Primeiro numero:'))
+segundo_numero = int(input('Segundo numero:'))
+soma = primeiro_numero + segundo_numero
 
-print('A soma entre {} e {} vale: {}'.format(Primeiro_número, Segundo_número, soma))
+print('A soma entre {} e {} vale: {}'.format(primeiro_numero, segundo_numero, soma))
