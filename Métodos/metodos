@@ -1,0 +1,43 @@
+--> .sort() = coloca em ordem de valor numerais e letras em ordem alfabética.
+Para transformar em valores DECRESCENTE é usado .sort(reverse=True).
+
+--> .len() = Realiza a contagem de quantos elementos existe em uma lista começando
+sempre por 0-1-2-3-4-...
+
+--> .append() = Adiciona um novo elemento em uma lista, qual será adicionado sempre
+no FINAL.
+
+--> .insert() = Adiciona um novo elemento em uma lista, porém permite escolher 
+em qual posição você gostaria de adicionar. Ex.: lanche.insert(1, xis).
+
+--> del = Deleta um elemento da lista indicando sua posição (índice). Ex.: del lanche[3]
+
+--> .pop() = Elimina um elemento da lista indicando sua posição (índice), caso nao 
+seja informado sua posição, será removido SEMPRE o ultimo indice. Ex.: lanche.pop(3)
+
+--> .remove() = Elimina um elemento da lista indicando seu valor. Ex.: lanche.remove('xis')
+Ex.: if 'xis' in lanche:
+        lanche.remove('xis')
+
+--> enumerate() = A função retorna uma tupla de dois elementos a cada iteração: um 
+número sequencial e um item da sequência correspondente.
+
+--> .values() = Retorna todos os valores de um dicionário. Ex.: {'Brasil': 'RS'} Valor é o RS nesse exemplo e a KEY é BRASIL. 
+
+--> .keys() = Retorna todas as chaves de um dicionário. Ex.: {'Brasil' : 'RS'} A chave é o Brasil nesse exemplo e o valor é RS.
+
+--> .items() = Retorna tanto a KEY quanto o VALOR de um dicionário. Ex.: {'Brasil' : 'RS'} Nesse caso o programa irá te retornar a KEY e seu VALOR [{'Brasil' : 'RS'}].
+
+--> sum() = Realiza a soma de valores dentro de uma lista.
+
+--> .isnumeric() = É um método embutido usado para manipulação de strings. O método issnumeric() retorna “True” se todos os caracteres da string forem numéricos, caso contrário, retorna “False”.
+
+--> .strip() = O método strip () retorna uma cópia da string removendo os caracteres iniciais e finais (com base no argumento da string passado). O strip() método remove os caracteres da esquerda e da direita com base no argumento (uma string que especifica o conjunto de caracteres a ser removido).
+
+--> len() =  função len , quando aplicada a um string, retorna o número de caracteres no string (ou seja, o seu comprimento).
+
+--> max() = função retorna o maior item em um iterável ou o maior de dois ou mais argumentos.
+
+--> min() = função retorna o menor item em um iterável ou o menor de dois ou mais argumentos.
+
+--> sum() = retorna a soma dos valores de entrada da coluna ou expressão.
